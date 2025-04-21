@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+    /* Width */
+    --spacing-container: 1200px; 
+
+    /* Color  */
+    --color-first: #F9FAFB;
+    --color-second: #111827;
+    --color-third: #0078FF;
+
+    /* Font Family */
+    --font-inter: "Inter",; 
+
+    /* Font Size */
+    --text-28: 28px;
+  }
