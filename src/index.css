@@ -8,10 +8,14 @@
     --color-first: #F9FAFB;
     --color-second: #111827;
     --color-third: #0078FF;
+    --color-fourth: #2563EB;
 
     /* Font Family */
     --font-inter: "Inter",; 
+    --font-fira: "Fira Sans Condensed",; 
 
     /* Font Size */
     --text-28: 28px;
   }
+
+ 
