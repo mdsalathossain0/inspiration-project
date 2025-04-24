@@ -3,6 +3,7 @@
 @theme {
     /* Width */
     --spacing-container: 1200px; 
+    
 
     /* Color  */
     --color-first: #F9FAFB;
@@ -13,9 +14,14 @@
     /* Font Family */
     --font-inter: "Inter",; 
     --font-fira: "Fira Sans Condensed",; 
+    --font-sand: "Quicksand",; 
+
 
     /* Font Size */
     --text-28: 28px;
+
+    /* Shadow  */
+    --inset-shadow-md: 0 -4px 6px -1px rgba(0, 0, 0, 0.2); 
   }
 
  
