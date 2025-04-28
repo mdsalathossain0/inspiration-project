@@ -117,7 +117,7 @@ const Article = () => {
                         </div>
                     </div>
                     <div className='relative w-[350px] sm:w-[590px] mx-auto md:w-[1200px] h-[402px] rounded-[28px] bg-gradient-to-r from-[#FFF5FE] to-[#FBDDF7] '>
-                        <div className='w-[150px] h-[150px] bg-[#DDB1E8] absolute top-0  left-1/3 blur-3xl'></div>
+                        <div className='w-[150px] h-[150px] bg-[#ddb1e840] absolute top-0  left-1/3 blur-3xl'></div>
                          <Flex>
                             <div className='w-7/12 pl-5 md:pl-[60px]'>
                             <Heading className=' pb-4.5 pt-10 md:pt-[130px] ' text='Collect and Save Inspirations' />

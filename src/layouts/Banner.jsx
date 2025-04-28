@@ -11,8 +11,8 @@ const Banner = () => {
     <section className='bg-second relative py-[30px] md:py-[70px]'>
 
         <div className='bg-[#1D4ED8] absolute top-1/4 -translate-x-[50%] left-0 rounded-full blur-3xl w-[150px] h-[150px]'></div>
-        <div className='bg-[#A21CAF] absolute top-1/4 left-1/2 rounded-full blur-3xl w-[120px] h-[120px]'></div>
-        <div className='bg-[#1D4ED8] absolute top-1/4 right-0 rounded-full blur-3xl w-[250px] h-[250px]'></div>
+        <div className='bg-[#a21caf40] absolute top-1/4 left-1/2 rounded-full blur-3xl w-[120px] h-[120px]'></div>
+        <div className='bg-[#1d4ed840] absolute top-1/4 right-0 rounded-full blur-3xl w-[250px] h-[250px]'></div>
         <Container>
             <Flex className='flex-col md:flex-row'>
 
