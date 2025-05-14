@@ -7,16 +7,19 @@ import Tutorial from './pages/Tutorial';
 import Freelance from './pages/Freelance';
 import Design from './pages/Design';
 import Freebies from './pages/Freebies';
+import RootLayout from './components/RootLayout';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-     <Route path="/" element={<Home />} ></Route>
+     <Route path='/' element={<RootLayout/>}>
+      <Route path="/" element={<Home />} ></Route>
      <Route path="/featured" element={<Featured />} ></Route>
      <Route path="/tutorial" element={<Tutorial />} ></Route>
-     <Route path="/freeelance" element={<Freelance />} ></Route>
+     <Route path="/freelance" element={<Freelance />} ></Route>
      <Route path="/design" element={<Design />} ></Route>
      <Route path="/freebies" element={<Freebies />} ></Route>
+     </Route>
     </>
   )
 );

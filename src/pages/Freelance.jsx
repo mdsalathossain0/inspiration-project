@@ -1,8 +1,13 @@
 import React from 'react'
+import Banner from '../layouts/Banner'
+import Gallary from '../layouts/Gallary'
 
 const Freelance = () => {
   return (
-    <div>Freelance</div>
+    <>
+    <Banner/>
+    <Gallary/>
+    </>
   )
 }
 

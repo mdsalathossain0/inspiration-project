@@ -1,8 +1,10 @@
 import React from 'react'
 
+import Article from '../layouts/Article'
+
 const Featured = () => {
   return (
-    <div>Featured</div>
+    <Article/>
   )
 }
 

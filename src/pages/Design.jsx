@@ -1,8 +1,13 @@
 import React from 'react'
+import Banner from '../layouts/Banner'
+import Article from '../layouts/Article'
 
 const Design = () => {
   return (
-    <div>Design</div>
+    <div>
+      <Banner/>
+      <Article/>
+    </div>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import Banner from '../layouts/Banner'
 
 const Freebies = () => {
   return (
-    <div>Freebies</div>
+    <div>
+      <Banner/>
+    </div>
   )
 }
 

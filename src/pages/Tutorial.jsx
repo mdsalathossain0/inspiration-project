@@ -1,8 +1,9 @@
 import React from 'react'
+import Article from '../layouts/Article'
 
 const Tutorial = () => {
   return (
-    <div>Tutorial</div>
+    <Article/>
   )
 }
 
